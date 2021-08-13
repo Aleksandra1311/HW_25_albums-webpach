@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(59, 57, 57);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#albums {
+    margin-right: 50px;
+}
+#photos {
+    width: 80%;
+}
+.album-item {
+    padding: 15px;
+    color: white;
+}
+
+.album-item:hover {
+    border: 1px solid lightyellow;
+}
